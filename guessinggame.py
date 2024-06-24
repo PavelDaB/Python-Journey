@@ -15,7 +15,7 @@ def play_game():
     elif difficulty == '3':
         max_num = 1000
     else:
-        print("Invalid choice. Defaulting to Medium (1-100).")
+        print("Invalid choice. Defaulting to Level 2 (1-100).")
         max_num = 100
 
     number_to_guess = random.randint(1, max_num)
